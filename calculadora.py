@@ -8,9 +8,6 @@ def multiplicar(a, b):
     return a * b
 
 def dividir(a, b):
-    if b == 0:
-        print("Erro: Divisão por zero não é permitida.")
-        return None
     return a / b
 
 print("=" * 20)
